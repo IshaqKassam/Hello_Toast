@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         else{
             int reset = 0;
             mShowCount.setText(Integer.toString(reset));
+            mCount = 0;
         }
 //        Toast toast = Toast.makeText(this, R.string.toast_message, Toast.LENGTH_SHORT);
 //        toast.show();
