@@ -30,8 +30,6 @@ public class MainActivity extends AppCompatActivity {
             mShowCount.setText(Integer.toString(reset));
             mCount = 0;
         }
-//        Toast toast = Toast.makeText(this, R.string.toast_message, Toast.LENGTH_SHORT);
-//        toast.show();
     }
 
     public void countUp(View view) {
